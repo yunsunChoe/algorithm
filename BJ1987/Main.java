@@ -42,8 +42,6 @@ public class Main {
     }
 
     private static void dfs(int x, int y, String alphabet, int count){
-
-        //check[x][y] = true;
         
         for(int i = 0; i < 4; i++){
             int dx = x + dr[i];
@@ -57,10 +55,6 @@ public class Main {
         }
 
         answer = Math.max(answer, count);
-       
-
-        
-        
 
     }
     
